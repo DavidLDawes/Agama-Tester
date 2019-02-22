@@ -177,6 +177,9 @@ We can run the tests from the Agama directory with:
     root@c8594de5e060:/home/Agama# mocha-headless-server test
 
 # Next
+* Get Chromium installed
+* Run chromium --headless
+* try mocha-headless-server test again
 * Get headless working
 * Move all of the installs it took to get headless working into the Dockerfile
 * Add another docker layer to include the VerusCli automatically.
