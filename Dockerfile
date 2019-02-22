@@ -1,4 +1,4 @@
-FROM docker pull asherd/agama-builder:latest
+FROM asherd/agama-builder:latest
 ENV CLOUD_SDK_VERSION 206.0.0
 ARG INSTALL_COMPONENTS
 RUN apt-get libgtk-3-dev \ 
