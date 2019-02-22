@@ -168,6 +168,7 @@ Since I'm in a container, we'll need a headless capability to get it to work.
 
 ## Headless Operation
 Install the headless Mocha package:
+
     root@c8594de5e060:/home/Agama# yarn global add mocha-headless-server
     root@c8594de5e060:/home/Agama# yarn add --dev mocha-headless-server
 
