@@ -1,4 +1,4 @@
-FROM DavidLDawes/agama-builder-with-verus-cli:latest
+FROM davidldawes/agama-builder-with-verus-cli:latest
 ENV CLOUD_SDK_VERSION 206.0.0
 ARG INSTALL_COMPONENTS
 RUN apt-get install -qqy \
