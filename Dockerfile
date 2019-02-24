@@ -6,7 +6,7 @@ RUN apt-get install -qqy \
     libasound2 \
     libxss1 \
     mocha && \
-    npm install chai mocha
+    npm install chai mocha && \
     yarn global add mocha-headless-server && \
 CMD [ "/bin/bash" ]
 
