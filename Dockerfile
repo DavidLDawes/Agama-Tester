@@ -4,9 +4,8 @@ ARG INSTALL_COMPONENTS
 RUN apt-get install -qqy \
     libnss3 \
     libasound2 \
-    libxss1 \
-    mocha && \
+    libxss1 && \
+    npm install chai mocha
     yarn global add mocha-headless-server && \
-    npm install chai
 CMD [ "/bin/bash" ]
 
