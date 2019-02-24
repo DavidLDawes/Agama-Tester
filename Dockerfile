@@ -7,8 +7,7 @@ RUN apt-get update && \
     libasound2 \
     libxss1 \
     mocha && \
-    npm install puppeteer@0.13.0 && \
-    npm install chai mocha@5 && \
+    npm install -g puppeteer@0.13.0 chai mocha@5 && \
     npm install -g  mocha-headless-server
 CMD [ "/bin/bash" ]
 
