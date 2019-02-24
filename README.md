@@ -1,6 +1,8 @@
 # Agama-Tester
 Docker headless test environment for the VerusCoin Enhanced Agama Wallet
 
+	https://img.shields.io/docker/automated/:user/:repo.svg     	https://img.shields.io/docker/build/:user/:repo.svg
+
 Headless stuff does not work yet. Working on it.
 
 This is where the Dockerfile definition is kept. This README is shown both on the [github Dockerfile source](https://github.com/DavidLDawes/Agama-Tester) and on [Docker Hub](https://cloud.docker.com/u/davidldawes/repository/docker/DavidLDawes/Agama-Tester). Updates to the github repository's master branch trigger an automatic buld to the Docker Hub location. 
