@@ -1,7 +1,7 @@
 # Agama-Tester
 Docker headless test environment for the VerusCoin Enhanced Agama Wallet
-
-	https://img.shields.io/docker/automated/:user/:repo.svg     	https://img.shields.io/docker/build/:user/:repo.svg
+![Automated Build](https://img.shields.io/docker/automated/davidldawes/agama-tester "Automated Build")
+![Build](https://img.shields.io/docker/build/davidldawes/agama-tester "Build")
 
 Headless stuff does not work yet. Working on it.
 
