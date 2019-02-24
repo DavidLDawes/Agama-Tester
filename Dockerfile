@@ -6,6 +6,7 @@ RUN apt-get update && \
     libnss3 \
     libasound2 \
     libxss1 \
+    puppeteer@0.13.0 \
     mocha && \
     npm install chai mocha@5 && \
     npm install -g  mocha-headless-server
